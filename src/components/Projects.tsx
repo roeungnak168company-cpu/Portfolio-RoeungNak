@@ -12,6 +12,11 @@ import imageProduct from "../img/product.png";
 import imageCard from "../img/card.png";
 import imageExpense from "../img/expense.png";
 import imagePOScomputer from "../img/pos_computer.png";
+import imageKHQR from "../img/khqr.png";
+import imageStore from "../img/store.png";
+import imageCart from "../img/cart.png";
+import imageKHQRPayment from "../img/khqrpayment.png";
+import imageSuccess from "../img/success.png";
 import { Carousel, Flex, Image, Select } from "antd";
 import { useState, useMemo } from "react";
 
@@ -32,7 +37,7 @@ const Projects = () => {
               tracking, payroll, and role-based access control.
             </p>
 
-            <Flex gap={5}>
+            {/* <Flex gap={5}>
               <div className="border p-5 mt-5 rounded-sm">
                 <p className="text-green-500 font-semibold mt-2">
                   Login admin Account Permission Roles
@@ -55,7 +60,7 @@ const Projects = () => {
                   Password: 123456
                 </p>
               </div>
-            </Flex>
+            </Flex> */}
           </>
         ),
         features: [
@@ -84,7 +89,7 @@ const Projects = () => {
           imageExpense,
         ],
         github: "https://github.com/roeungnakproject/React-Project",
-        live: "https://react-project-kappa-taupe.vercel.app/",
+        live: "#",
         accentColor: "from-blue-500 to-purple-600",
       },
       {
@@ -109,7 +114,30 @@ const Projects = () => {
           imageProductAll,
         ],
         github: "https://github.com/roeungnakproject/Ecommerce-Frontend",
-        live: "https://ecommerce-frontend-seven-rose.vercel.app/",
+        live: "#",
+        accentColor: "from-orange-500 to-pink-600",
+      },
+      {
+        title: "Payment Gateway",
+        description:
+          "KHQR Payment Gateway with QR code generation, secure transaction processing, and real-time payment status updates. Built with  Laravel, and MySQL.",
+        features: [
+          "Scan QR Code for Payment",
+          "Automatically Generate QR Code",
+          "Auto Complete Payment Details",
+          "Transaction History in database",
+          "Send Invoice to Telegram Bot",
+        ],
+        tech: ["Laravel", "Tailwind CSS", "MySQL"],
+        images: [
+          imageKHQR,
+          imageStore,
+          imageCart,
+          imageKHQRPayment,
+          imageSuccess,
+        ],
+        github: "https://github.com/roeungnakproject/Ecommerce-Frontend",
+        live: "#",
         accentColor: "from-orange-500 to-pink-600",
       },
     ],

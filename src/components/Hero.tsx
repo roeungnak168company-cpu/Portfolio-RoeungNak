@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import profileImg from "../img/profile.jpg";
+import profileImg from "../img/profile.png";
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
               className="text-xl md:text-2xl text-muted-foreground mb-2 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
-              BACKEND INTERSHIP
+              Web Developer Intership
             </p>
             <p
               className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-in"
